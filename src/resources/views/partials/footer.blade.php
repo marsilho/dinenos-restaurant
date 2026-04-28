@@ -1,5 +1,5 @@
 <div class="rts-footer-one rts-section-gap2Top">
-        <div class="shape-1"><img src="assets/images/footer/vector5.webp" alt="shape"></div>
+        <div class="shape-1"><img src="{{asset('images/footer/vector5.webp')}}" alt="shape"></div>
         <div class="shape-2"><img src="assets/images/footer/vector6.webp" alt="shape"></div>
         <div class="container">
             <div class="row">
@@ -8,7 +8,7 @@
                     <div class="main-footer-wrapper-one">
                         <div class="single-footer-wized-one logo-area" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
                             <a href="index.html" class="logo">
-                                <img src="assets/images/logo/01.svg" alt="logo">
+                                <img src="{{asset('images/logo/01.svg')}}" alt="logo">
                             </a>
                             <p class="disc-f">
                                 Be the first to know about new collections, special events, and what’s going on at Our Place. We are creative
@@ -56,12 +56,12 @@
                             </div>
                         </div>
                         <div class="single-footer-wized-one gallery" data-sal="slide-up" data-sal-delay="550" data-sal-duration="800">
-                            <div class="gallery-item"><img src="assets/images/gallery/sm-01.jpg" alt=""></div>
-                            <div class="gallery-item"><img src="assets/images/gallery/sm-02.jpg" alt=""></div>
-                            <div class="gallery-item"><img src="assets/images/gallery/sm-03.jpg" alt=""></div>
-                            <div class="gallery-item"><img src="assets/images/gallery/sm-04.jpg" alt=""></div>
-                            <div class="gallery-item"><img src="assets/images/gallery/sm-05.jpg" alt=""></div>
-                            <div class="gallery-item"><img src="assets/images/gallery/sm-06.jpg" alt=""></div>
+                            <div class="gallery-item"><img src="{{asset('images/gallery/sm-01.jpg')}}" alt=""></div>
+                            <div class="gallery-item"><img src="{{asset('images/gallery/sm-02.jpg')}}" alt=""></div>
+                            <div class="gallery-item"><img src="{{asset('images/gallery/sm-03.jpg')}}" alt=""></div>
+                            <div class="gallery-item"><img src="{{asset('images/gallery/sm-04.jpg')}}" alt=""></div>
+                            <div class="gallery-item"><img src="{{asset('images/gallery/sm-05.jpg')}}" alt=""></div>
+                            <div class="gallery-item"><img src="{{asset('images/gallery/sm-06.jpg')}}" alt=""></div>
                         </div>
                     </div>
                     <!-- ,main footer area end -->

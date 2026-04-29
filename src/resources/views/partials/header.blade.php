@@ -5,7 +5,7 @@
                     <div class="header-main-wrapper">
                         <div class="logo-area">
                             <a href="index.html" class="logo">
-                                <img src="assets/images/logo/01.svg" alt="image-logo">
+                                <img src="{{asset('dinenos-restaurant/images/logo/01.svg')}}" alt="image-logo">
                             </a>
                         </div>
                         <div class="rts-header-mid">
@@ -14,22 +14,15 @@
                                 <nav>
                                     <ul>
                                         <li class="has-droupdown">
-                                            <a class="nav-link" href="#">Home</a>
+                                            <a class="nav-link" href="{{ route('home') }}">Home</a>
                                             <ul class="submenu">
-                                                <li><a href="index.html">HOME ONE</a></li>
-                                                <li><a href="index-two.html">HOME TWO</a></li>
-                                                <li><a href="index-three.html">HOME THREE</a></li>
-                                                <li><a href="index-four.html">BURGER HOME</a></li>
-                                                <li><a href="index-five.html">SEAFOOD HOME</a></li>
-                                                <li><a href="index-six.html">RESTAURANT HOME (DARK)</a></li>
                                                 <li><a href="index-seven.html">PIZZA HOME</a></li>
-                                                <li><a href="index-eight.html">COFFEE HOUSE</a></li>
                                             </ul>
                                         </li>
                                         <li class="has-droupdown pages">
-                                            <a class="nav-link" href="#">Pages</a>
+                                            <a class="nav-link" href="#">Paginas</a>
                                             <ul class="submenu">
-                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="{{ route('sobre') }}">About</a></li>
                                                 <li><a href="our-chef.html">Our Chef</a></li>
                                                 <li><a href="meet-the-chef.html">Meet The Chef</a></li>
                                                 <li><a href="reservation.html">Reservation</a></li>
@@ -37,13 +30,13 @@
                                             </ul>
                                         </li>
                                         <li class="has-droupdown mega">
-                                            <a class="nav-link" href="#">Menus</a>
+                                            <a class="nav-link" href="{{ route('menu') }}">Menus</a>
                                             <div class="submenu menu-home">
                                                 <ul class="container flex-mega">
-                                                    <li><a href="menu.html"><img src="assets/images/project/menu-1.webp" alt="menu"> <br> MenuTab</a></li>
-                                                    <li><a href="menu-list.html"><img src="assets/images/project/menu-2.webp" alt="menu"><br>MenuList</a></li>
-                                                    <li><a href="menu-list2.html"><img src="assets/images/project/menu-3.webp" alt="menu"><br>MenuList2</a></li>
-                                                    <li><a href="menu-section.html"><img src="assets/images/project/menu-4.webp" alt="menu"><br>MenuSection</a></li>
+                                                    <li><a href="menu.html"><img src="{{asset('dinenos-restaurant/images/project/menu-1.webp')}}" alt="menu"> <br> MenuTab</a></li>
+                                                    <li><a href="menu-list.html"><img src="{{asset('dinenos-restaurant/images/project/menu-2.webp')}}" alt="menu"><br>MenuList</a></li>
+                                                    <li><a href="menu-list2.html"><img src="{{asset('dinenos-restaurant/images/project/menu-3.webp')}}" alt="menu"><br>MenuList2</a></li>
+                                                    <li><a href="menu-section.html"><img src="{{asset('dinenos-restaurant/images/project/menu-4.webp')}}" alt="menu"><br>MenuSection</a></li>
                                                 </ul>
                                             </div>
                                         </li>

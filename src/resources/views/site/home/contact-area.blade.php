@@ -4,9 +4,9 @@
                 <div class="col-lg-6">
                     <div class="container">
                         <div class="banner-one-wrapper text-center">
-                            <div class="shape-1"><img src="assets/images/contact/overly-line.webp" alt=""></div>
+                            <div class="shape-1"><img src="{{asset('dinenos-restaurant/images/contact/overly-line.webp')}}" alt=""></div>
                             <div class="title-img" data-sal="zoom-in" data-sal-delay="100" data-sal-duration="800">
-                                <img src="assets/images/about/title-shape.png" alt="about">
+                                <img src="{{asset('dinenos-restaurant/images/about/title-shape.png')}}" alt="about">
                             </div>
                             <h1 class="title-banner" data-sal="slide-up" data-sal-delay="120" data-sal-duration="800">
                                 Find Food Lounge
@@ -58,7 +58,7 @@
                     <div class="right-side-image">
                         <div class="reveal-item overflow-hidden aos-init">
                             <div class="reveal-animation reveal-end reveal-primary aos aos-init" data-aos="reveal-end"></div>
-                            <img src="assets/images/contact/bg-01.jpg" alt="contact">
+                            <img src="{{asset('dinenos-restaurant/images/contact/bg-01.jpg')}}" alt="contact">
                         </div>
                     </div>
                 </div>

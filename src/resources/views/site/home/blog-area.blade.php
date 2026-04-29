@@ -4,7 +4,7 @@
                 <div class="col-lg-12">
                     <div class="banner-one-wrapper">
                         <div class="title-img" data-sal="zoom-in" data-sal-delay="100" data-sal-duration="800">
-                            <img src="assets/images/about/title-shape.png" alt="about">
+                            <img src="{{asset('dinenos-restaurant/images/about/title-shape.png')}}" alt="about">
                         </div>
                         <h1 class="title-banner" data-sal="slide-up" data-sal-delay="120" data-sal-duration="800">
                             Starters & Main Dishes
@@ -19,7 +19,7 @@
                         <div class="swiper-slide">
                             <div class="blog-wrapper">
                                 <div class="image-part">
-                                    <img src="assets/images/blog/blog-01.jpg" alt="blog">
+                                    <img src="{{asset('dinenos-restaurant/images/blog/blog-01.jpg')}}" alt="blog">
                                 </div>
                                 <span class="blog-badge"> March 2, 2023</span>
                                 <div class="content">
@@ -31,7 +31,7 @@
                         <div class="swiper-slide">
                             <div class="blog-wrapper">
                                 <div class="image-part">
-                                    <img src="assets/images/blog/blog-02.jpg" alt="blog">
+                                    <img src="{{asset('dinenos-restaurant/images/blog/blog-02.jpg')}}" alt="blog">
                                 </div>
                                 <span class="blog-badge"> March 2, 2023</span>
                                 <div class="content">
@@ -43,7 +43,7 @@
                         <div class="swiper-slide">
                             <div class="blog-wrapper">
                                 <div class="image-part">
-                                    <img src="assets/images/blog/blog-03.jpg" alt="blog">
+                                    <img src="{{asset('dinenos-restaurant/images/blog/blog-03.jpg')}}" alt="blog">
                                 </div>
                                 <span class="blog-badge"> March 2, 2023</span>
                                 <div class="content">
@@ -55,7 +55,7 @@
                         <div class="swiper-slide">
                             <div class="blog-wrapper">
                                 <div class="image-part">
-                                    <img src="assets/images/blog/blog-04.jpg" alt="blog">
+                                    <img src="{{asset('dinenos-restaurant/images/blog/blog-04.jpg')}}" alt="blog">
                                 </div>
                                 <span class="blog-badge"> March 2, 2023</span>
                                 <div class="content">

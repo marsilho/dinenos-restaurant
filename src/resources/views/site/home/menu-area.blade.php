@@ -4,7 +4,7 @@
                 <div class="menu-area-top-inner">
                     <div class="banner-one-wrapper">
                         <div class="title-img" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
-                            <img src="assets/images/about/title-shape.png" alt="about">
+                            <img src="{{asset('dinenos-restaurant/images/about/title-shape.png')}}" alt="about">
                         </div>
                         <h1 class="title-banner" data-sal="slide-up" data-sal-delay="170" data-sal-duration="800">
                             Pizza For You Today
@@ -15,7 +15,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6">
                                 <div class="image-part">
-                                    <img src="assets/images/project/pizza-01.jpg" alt="image">
+                                    <img src="{{asset('dinenos-restaurant/images/project/pizza-01.jpg')}}" alt="image">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -80,7 +80,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="image-part">
-                                    <img src="assets/images/project/pizza-02.jpg" alt="image">
+                                    <img src="{{asset('dinenos-restaurant/images/project/pizza-02.jpg')}}" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6">
                                 <div class="image-part">
-                                    <img src="assets/images/project/pizza-03.jpg" alt="image">
+                                    <img src="{{asset('dinenos-restaurant/images/project/pizza-03.jpg')}}" alt="image">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -128,7 +128,7 @@
                 <div class="menu-area-bottom-inner">
                     <div class="banner-one-wrapper">
                         <div class="title-img" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
-                            <img src="assets/images/about/title-shape.png" alt="about">
+                            <img src="{{asset('dinenos-restaurant/images/about/title-shape.png')}}" alt="about">
                         </div>
                         <h1 class="title-banner" data-sal="slide-up" data-sal-delay="170" data-sal-duration="800">
                             Full Menu Items
@@ -145,7 +145,7 @@
                                             </h4>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-12.webp" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-12.webp')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Marinara</h4>
@@ -158,7 +158,7 @@
                                             </li>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-13.jpg" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-13.jpg')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Margherita</h4>
@@ -178,7 +178,7 @@
                                             </h4>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-14.webp" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-14.webp')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Ai Broccoli</h4>
@@ -191,7 +191,7 @@
                                             </li>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-15.webp" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-15.webp')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Bianca</h4>
@@ -204,7 +204,7 @@
                                             </li>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-16.webp" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-16.webp')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Bolognese</h4>
@@ -217,7 +217,7 @@
                                             </li>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-17.webp" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-17.webp')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Caprese</h4>
@@ -241,7 +241,7 @@
                                             </h4>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-18.webp" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-18.webp')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">California Style</h4>
@@ -258,7 +258,7 @@
                                             </li>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-19.webp" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-19.webp')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Detroit Style</h4>
@@ -271,7 +271,7 @@
                                             </li>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-20.webp" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-20.webp')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Buffalo Chicken</h4>
@@ -284,7 +284,7 @@
                                             </li>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-12.webp" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-12.webp')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Carolina Reaper</h4>
@@ -297,7 +297,7 @@
                                             </li>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-21.jpg" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-21.jpg')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Cheeseburger Style</h4>
@@ -310,7 +310,7 @@
                                             </li>
                                             <li class="menu-item-inner" data-sal="zoom-in" data-sal-delay="150" data-sal-duration="800">
                                                 <div class="image">
-                                                    <img src="assets/images/project/sm-13.jpg" alt="">
+                                                    <img src="{{asset('dinenos-restaurant/images/project/sm-13.jpg')}}" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title">Chicken Alfredo</h4>

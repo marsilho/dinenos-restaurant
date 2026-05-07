@@ -3,10 +3,10 @@
             <div class="row text-center">
                 <div class="col-lg-12">
                     <div class="banner-one-wrapper">
-                        <div class="shape-1"><img src="assets/images/project/vector1.webp" alt="shape"></div>
-                        <div class="shape-2"><img src="assets/images/project/vector2.webp" alt="shape"></div>
+                        <div class="shape-1"><img src="{{asset('dinenos-restaurant/images/project/vector1.webp')}}" alt="shape"></div>
+                        <div class="shape-2"><img src="{{asset('dinenos-restaurant/images/project/vector2.webp')}}" alt="shape"></div>
                         <div class="title-img" data-sal="zoom-in" data-sal-delay="100" data-sal-duration="800">
-                            <img src="assets/images/about/title-shape.png" alt="about">
+                            <img src="{{asset('dinenos-restaurant/images/about/title-shape.png')}}" alt="about">
                         </div>
                         <h1 class="title-banner" data-sal="slide-up" data-sal-delay="120" data-sal-duration="800">
                             Our Food Menu
@@ -29,7 +29,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat3">
                     <div class="portfolio-wrapper2 mb-30">
                         <a href="shop-details.html" class="image">
-                            <img class="img-fluid" src="assets/images/project/01.jpg" alt="Portfolio Img">
+                            <img class="img-fluid" src="{{asset('dinenos-restaurant/images/project/01.jpg')}}" alt="Portfolio Img">
                         </a>
                         <div class="portfolio-content">
                             <div class="star-rating">
@@ -49,7 +49,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat1">
                     <div class="portfolio-wrapper2 mb-30">
                         <a href="shop-details.html" class="image">
-                            <img class="img-fluid" src="assets/images/project/02.jpg" alt="Portfolio Img">
+                            <img class="img-fluid" src="{{asset('dinenos-restaurant/images/project/02.jpg')}}" alt="Portfolio Img">
                         </a>
                         <div class="portfolio-content">
                             <div class="star-rating">
@@ -69,7 +69,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat2 cat3">
                     <div class="portfolio-wrapper2 mb-30">
                         <a href="shop-details.html" class="image">
-                            <img class="img-fluid" src="assets/images/project/03.jpg" alt="Portfolio Img">
+                            <img class="img-fluid" src="{{asset('dinenos-restaurant/images/project/03.jpg')}}" alt="Portfolio Img">
                         </a>
                         <div class="portfolio-content">
                             <div class="star-rating">
@@ -89,7 +89,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat1">
                     <div class="portfolio-wrapper2 mb-30">
                         <a href="shop-details.html" class="image">
-                            <img class="img-fluid" src="assets/images/project/04.jpg" alt="Portfolio Img">
+                            <img class="img-fluid" src="{{asset('dinenos-restaurant/images/project/04.jpg')}}" alt="Portfolio Img">
                         </a>
                         <div class="portfolio-content">
                             <div class="star-rating">
@@ -109,7 +109,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat3">
                     <div class="portfolio-wrapper2 mb-30">
                         <a href="shop-details.html" class="image">
-                            <img class="img-fluid" src="assets/images/project/05.jpg" alt="Portfolio Img">
+                            <img class="img-fluid" src="{{asset('dinenos-restaurant/images/project/05.jpg')}}" alt="Portfolio Img">
                         </a>
                         <div class="portfolio-content">
                             <div class="star-rating">
@@ -129,7 +129,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat1">
                     <div class="portfolio-wrapper2 mb-30">
                         <a href="shop-details.html" class="image">
-                            <img class="img-fluid" src="assets/images/project/06.jpg" alt="Portfolio Img">
+                            <img class="img-fluid" src="{{asset('dinenos-restaurant/images/project/06.jpg')}}" alt="Portfolio Img">
                         </a>
                         <div class="portfolio-content">
                             <div class="star-rating">
@@ -149,7 +149,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat2 cat3">
                     <div class="portfolio-wrapper2 mb-30">
                         <a href="shop-details.html" class="image">
-                            <img class="img-fluid" src="assets/images/project/12.jpg" alt="Portfolio Img">
+                            <img class="img-fluid" src="{{asset('dinenos-restaurant/images/project/12.jpg')}}" alt="Portfolio Img">
                         </a>
                         <div class="portfolio-content">
                             <div class="star-rating">
@@ -169,7 +169,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 grid-item cat1">
                     <div class="portfolio-wrapper2 mb-30">
                         <a href="shop-details.html" class="image">
-                            <img class="img-fluid" src="assets/images/project/13.jpg" alt="Portfolio Img">
+                            <img class="img-fluid" src="{{asset('dinenos-restaurant/images/project/13.jpg')}}" alt="Portfolio Img">
                         </a>
                         <div class="portfolio-content">
                             <div class="star-rating">

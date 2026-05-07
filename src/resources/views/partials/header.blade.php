@@ -20,14 +20,7 @@
                                             </ul>
                                         </li>
                                         <li class="has-droupdown pages">
-                                            <a class="nav-link" href="#">Paginas</a>
-                                            <ul class="submenu">
-                                                <li><a href="{{ route('sobre') }}">About</a></li>
-                                                <li><a href="our-chef.html">Our Chef</a></li>
-                                                <li><a href="meet-the-chef.html">Meet The Chef</a></li>
-                                                <li><a href="reservation.html">Reservation</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                            </ul>
+                                            <a class="nav-link" href="{{ route('sobre') }}">Sobre</a>
                                         </li>
                                         <li class="has-droupdown mega">
                                             <a class="nav-link" href="{{ route('menu') }}">Menus</a>
@@ -41,7 +34,7 @@
                                             </div>
                                         </li>
                                         <li class="has-droupdown pages">
-                                            <a class="nav-link" href="#">Shop</a>
+                                            <a class="nav-link" href="{{ route('shop') }}">Shop</a>
                                             <ul class="submenu">
                                                 <li><a href="shop.html">Shop</a></li>
                                                 <li><a href="shop-details.html">Shop Details</a></li>
@@ -51,11 +44,7 @@
                                             </ul>
                                         </li>
                                         <li class="has-droupdown pages">
-                                            <a class="nav-link" href="#">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
+                                            <a class="nav-link" href="{{ route('contato') }}">Contato</a>
                                         </li>
                                     </ul>
                                 </nav>

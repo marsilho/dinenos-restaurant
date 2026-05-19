@@ -20,4 +20,6 @@
     <link rel="stylesheet" href="{{asset('dinenos-restaurant/css/vendor/bootstrap.min.css')}}">
     <!-- main css -->
     <link rel="stylesheet" href="{{asset('dinenos-restaurant/css/style.css')}}">
+    <!-- estilo css Noxare -->
+    <link rel="stylesheet" href="{{asset('src/public/noxare/estilo.css')}}">
 </head>
